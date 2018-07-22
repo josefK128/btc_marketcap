@@ -1,6 +1,6 @@
-# btc_marketcap
+### btc_marketcap
 
-# Setting up
+##### Setting up
 ```
 download truffle ganache (test blockchain replaces test-rpc)
 npm install -g truffle 
@@ -15,12 +15,12 @@ truffle compile
 truffle migrate
 ```
 
-# Running marketcap oracle
+##### Running marketcap oracle
 ```
 node oracle.js
 ```
 
-# Running client - initially run twice to get first update 
+##### Running client - initially run twice to get first update 
 ```
 node client.js
 ```
